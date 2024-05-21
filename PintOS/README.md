@@ -1,6 +1,6 @@
 # PintOS
 
-# Project 0: PintOS
+## Project 0: PintOS
 
 Virtual Machine ~= Hypervisor
 
@@ -13,7 +13,7 @@ Common bugs
 - Deadlock
 - Use after free
 
-# Project 1: Threads
+## Project 1: Threads
 
 Time-sharing system
 
@@ -38,7 +38,7 @@ Synchronization
 - lock
 - condvar
 
-# Project 2: User Programs
+## Project 2: User Programs
 
 User mode vs. Kernel mode
 
@@ -71,7 +71,7 @@ file descriptor
 - file descriptor table
 - dup2 syscall
 
-# Project 3: Virtual Memory
+## Project 3: Virtual Memory
 
 Virtual memory management
 
@@ -98,7 +98,7 @@ Swap in/out
 
 Copy on Write (COW)
 
-# Project 4: File System
+## Project 4: File System
 
 Type of file system
 
