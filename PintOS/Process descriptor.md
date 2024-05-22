@@ -1,0 +1,4 @@
+- [[kernel]]은 [[process]]를 관리하기 위해 process의 모든 정보를 알고있어야 한다.
+- process descriptor는 프로세스의 모든 정보를 담고있는 자료구조이다
+	- 일반 운영체제에서는 PCB(Process control block)이라고 하고
+	- 리눅스에서는 task_struct라는 자료구조에 정보를 담는다 `<sched.h>에 정의`
