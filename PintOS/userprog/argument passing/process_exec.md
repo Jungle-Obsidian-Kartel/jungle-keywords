@@ -30,3 +30,7 @@ int process_exec (void *f_name)
 2. `load`에서 `file_name`에 해당하는 바이너리 파일을 로드하고 있으므로, 사용자로부터 입력받은 매개변수에서 실제로 `file_name`에 해당하는 부분만 `load`의 인자로 전달해주어야 한다.
     
 3. `load`의 `set_up_stack`에서 스택 공간에 대한 할당(`palloc_get_page`)을 하고 있으므로 이후에 매개변수를 스택에 할당해주어야 한다.
+
+
+### 디버깅
+- 실제로 스택에 들어갔는지 확인을 위해 [[hex_dump]] 를 사용한다. 
